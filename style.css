@@ -1,0 +1,15 @@
+* {font-family: optima;}
+	
+h1 {color: #256d2c; font: 30px;}
+h2 {color: #407a40; font: 25px;}
+h3 {color: #318431; font: 20px;}
+p  {color: #3766a0; font: 15px;}
+			
+.list {font-style: italic;}
+#important {font-style: oblique; color: #1293a0;}
+			
+ol li {color: #a54169;}
+h1, h2, h3 {font-variant: small-caps;}
+			
+p:first-line {font-weight: bold;}
+a:hover {color: #ceca41;}
