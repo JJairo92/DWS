@@ -6,12 +6,12 @@ http://jjairo92.github.io/DWS/Jurado_Jairo_Lab2/index.html
 
 
 style.css GitHub Link
-http://jjairo92.github.io/DWS/Jurado_Jairo_Lab1/CSS/style.css
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab2/CSS/style.css
 
 
 saturn.jpg GitHub Link
-http://jjairo92.github.io/DWS/Jurado_Jairo_Lab1/images/saturn.jpg
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab2/images/saturn.jpg
 
 
 ResearchPaper_Lab2.docx GitHub Link
-http://jjairo92.github.io/DWS/Jurado_Jairo_Lab1/ResearchPaper_Lab2.docx
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab2/ResearchPaper_Lab2.docx
