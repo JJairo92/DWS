@@ -1,0 +1,105 @@
+/*
+	Name: Jairo Jurado;
+*/
+
+
+/*---------------- Universal ---------------*/
+* {
+	background-color: #efefef;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	font-family: 'Alef', sans-serif;
+}
+
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/*---------------- Header ---------------*/
+h1 {
+	float: left;
+	line-height: 50px;
+	margin-top: 0;
+	width: 150px;
+}
+
+div#nav {
+	float: right;
+	padding: 0;
+	margin-top: 0;
+}
+
+div#nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#nav ul li{
+	float: left;
+	width: 150px;
+}
+
+
+div#nav ul a{
+	display: block;
+	background-color: #d8a339;
+	color: #e2e1e0;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+div#nav ul a:hover{
+	background-color: #c96820;
+	color: #fff;
+}
+
+
+/*---------------- Main-Content ---------------*/
+div.main-content {
+	width: 470px;
+	float: left;
+	clear: left;
+}
+
+div.second{
+	width: 470px;
+	float: right;
+}
+
+
+/*---------------- Gallery & See Also ---------------*/
+ul#gallery {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul#gallery li{
+	float: left;
+}
+
+div#extra-links h3 {
+	margin: 0;
+}
+
+div#extra-links ul {
+	list-style-type: none;
+	padding: 0;
+	text-indent: 5px;
+}
+
+
+/*---------------- Footer ---------------*/
+div#footer {
+	clear: left;
+	bottom: 0;
+	text-align: center;
+}
+
