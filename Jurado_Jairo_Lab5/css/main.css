@@ -1,0 +1,232 @@
+/*
+	Name: Jairo Jurado;
+    Lab: 5;
+*/
+
+
+/* ---------------- Universal --------------- */
+
+* {
+	background-color: #efefef;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	font-family: 'Alef', sans-serif;
+}
+
+#wrapper {
+	width: 100%; /* 960px */
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font-size: 100%;
+}
+
+
+/* ---------------- Main-Content --------------- */
+
+div.main-content, #extra-links {
+	width: 48.958470333333333%; /* 470px / 960px */
+	clear: left;
+}
+
+div.main-content, #extra-links {
+	float: left;
+}
+
+div.second {
+	width: 48.958470333333333%; /* 470px / 960px */
+}
+
+div.second {
+	float: right;
+}
+
+#hercules {
+	width: 53.191489361702%; /* 250px */
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* ---------------- Header & Navigation --------------- */
+
+h1 {
+	line-height: 50px;
+	margin-top: 0;
+	width: 37.5%; /* 360px / 960px */
+}
+
+h1 {
+	float: left;
+}
+
+div#nav {
+	padding: 0;
+	margin-top: 0;
+	width: 62.5%; /* 600px / 960px */
+}
+
+div#nav {
+	float: right;
+}
+
+div#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#nav ul li {
+	float: left;
+	width: 25%; /* 150px / 600px */
+}
+
+
+div#nav ul a {
+	display: block;
+	background-color: #d8a339;
+	color: #e2e1e0;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+}
+
+#nav ul a {
+	font-size: 1.25em; /* 20px */
+}
+
+div#nav ul a:hover {
+	background-color: #c96820;
+	color: #fff;
+}
+
+
+/* ---------------- Gallery & See Also --------------- */
+
+ul#gallery {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul#gallery li {
+	float: left;
+}
+
+div#extra-links h3 {
+	margin: 0;
+	width: 200%;
+}
+
+div#extra-links ul {
+	list-style-type: none;
+	padding: 0;
+	text-indent: 01.063829787234%; /* 5px / 470px */
+}
+
+
+/* ---------------- Footer --------------- */
+
+div#footer {
+	clear: left;
+	bottom: 0;
+	text-align: center;
+}
+
+
+/* ---------------- Media Queries --------------- */
+
+
+/* Tablet Portrait Size to standard 960 (devices and browsers) */
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	#extra-links ul {
+		width: 200%;
+		overflow: hidden;
+	}
+
+	h1 {
+		line-height: 44px;
+	}
+
+	#nav ul a {
+		line-height: 44px;
+	}
+
+	#links-1 {
+		float: left;
+	}
+	#links-2 {
+		float: right;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+
+@media screen and (min-width: 620px) and (max-width: 767px) {
+	#wrapper {
+		clear: right;
+	}
+
+	div.main-content, #extra-links {
+		width: 48.696219035202%; /* 373.5px / 767px */
+		float: left;
+	}
+
+	h1 {
+		line-height: 44px;
+	}
+
+	#nav ul a {
+		line-height: 44px;
+	}
+
+	div.second {
+		width: 48.696219035202%; /* 373.5px / 767px */
+		float: right;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+
+@media screen and (min-width: 520px) and (max-width: 619px) {
+	body {
+		color: #d8d6d6;
+	}
+
+	h1 {
+		line-height: 44px;
+	}
+
+	#nav ul a {
+		font-size: 1.1em; /* 17px */
+		line-height: 44px;
+		background-color: #c96820;
+	}
+
+	#nav ul a:hover {
+		background-color: #d8a339;
+}
+
+/* Other Devices to Mobile Portrait Size (devices and browsers) */
+
+@media screen and (max-width: 519px) {
+	body {
+		color: #d8d6d6;
+	}
+
+	#nav ul a {
+		font-size: 1em; /* 17px */
+	}
+	.main-content, #extra-links, .second, h1,  #nav {
+		float: none;
+		clear: none;
+		width: 100%;
+	}
+
