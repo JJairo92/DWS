@@ -1,0 +1,147 @@
+/*
+	Name: Jairo Jurado
+	Lab 7 - Styling Forms
+*/
+
+
+/* -------------------- Universal -------------------- */
+
+html {
+	background: #eae8e8;
+	font-family: "helvetica neue", helvetica, arial, sans-serif;
+	color: #606060;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #6a9e6d;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* -------------------- Form -------------------- */
+
+form {
+	border: 3px solid #6a9e6d;
+	background-color: #d1d3d1;
+}
+
+input:focus, textarea:focus {
+	background-color: #747574;
+	color: #fafafa;
+}
+
+input:hover, textarea:hover {
+	background-color: #a9aaa9;
+}
+
+fieldset {
+	border: 0;
+}
+
+fieldset#section-dob, fieldset#gender{
+	border: 2px solid #6a9e6d;
+}
+
+
+/* -------------------- Labels & Inputs -------------------- */
+
+label {
+	float: left;
+	text-align: right;
+	width: 200px;
+	display: block;
+}
+
+input, textarea, select {
+	margin-left: 10px;
+}
+
+input[type=radio] {
+	float: left;
+}
+
+div#dob_month {
+	margin: 10px 0;
+}
+
+.profile-link-prefix {
+	font-style: italic;
+	margin-left: 10px;
+}
+
+.note {
+	padding: 10px 0;
+}
+
+
+/* -------------------- Submit Buttons -------------------- */
+
+input[type=submit] {
+	font-size: 12px;
+	color: #fafafa;
+	background: -moz-linear-gradient(
+		top,
+		#a6c995 0%,
+		#53945b);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a6c995),
+		to(#53945b));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #6a9e6d;
+	-moz-box-shadow:
+		0px 1px 3px rgba(3,3,3,0.5),
+		inset 0px -1px 0px rgba(82,82,82,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(3,3,3,0.5),
+		inset 0px -1px 0px rgba(82,82,82,0.7);
+	box-shadow:
+		0px 1px 3px rgba(3,3,3,0.5),
+		inset 0px -1px 0px rgba(82,82,82,0.7);
+	text-shadow:
+		0px -1px 1px rgba(5,4,5,0.2),
+		0px 1px 0px rgba(43,38,43,0.3);
+	float: right;
+	clear: left;
+}
+
+input[type=submit]:hover {
+	font-size: 12px;
+	color: #fafafa;
+	background: -moz-linear-gradient(
+		top,
+		#69c73a 0%,
+		#32ba00);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#69c73a),
+		to(#32ba00));
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+	border: 1px solid #0c8a1b;
+	-moz-box-shadow:
+		0px 1px 3px rgba(73,133,49,0.5),
+		inset 0px 0px 2px rgba(171,152,171,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(73,133,49,0.5),
+		inset 0px 0px 2px rgba(171,152,171,1);
+	box-shadow:
+		0px 1px 3px rgba(73,133,49,0.5),
+		inset 0px 0px 2px rgba(171,152,171,1);
+	text-shadow:
+		0px -1px 0px rgba(0,0,0,0.2),
+		0px 1px 0px rgba(18,18,18,0.4);
+}
+

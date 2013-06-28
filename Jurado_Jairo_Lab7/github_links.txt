@@ -1,0 +1,21 @@
+Master Page GitHub Linkhttps://github.com/JJairo92/DWSgh-pages GitHub Linkhttps://github.com/JJairo92/DWS/tree/gh-pages
+
+
+level-1.html GitHub Link
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab7/level-1.html
+
+
+level-2.html GitHub Link
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab7/level-2.html
+
+
+level-3.html GitHub Link
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab7/level-3.html
+
+
+level-4.html GitHub Link
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab7/level-4.html
+
+
+style.css GitHub Link
+http://jjairo92.github.io/DWS/Jurado_Jairo_Lab7/css/style.css
